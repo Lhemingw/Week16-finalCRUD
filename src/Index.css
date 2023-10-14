@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+}
+
+.header {
+    padding: 20px;
+    text-align-last: center;
+    background: #3ac0a5;
+    color: white;
+    font-size: 30px;
+   
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #000; /* Add a border around the container */ 
+    padding: 5px; /* Add some padding for spacing */
+    margin: 0px; /* Add margin to separate containers */
+  }
+
+  .button{
+    margin-left: 10px;
+    }
+
+    .button2{
+      margin-left: 15px;
+      }
+    

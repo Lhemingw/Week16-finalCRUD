@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "workbench.settings.openDefaultKeybindings": false,
+    "workbench.settings.editor": "ui"
+  }
+  
+// {
+//     "liveServer.settings.CustomBrowser": "chrome",
+//     "workbench.settings.openDefaultKeybindings": false
+// }
