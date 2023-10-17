@@ -30,7 +30,7 @@ body{
   text-align: center;
  }
  .p{
-  font-size: small;
+  font-size: small;/* this is for footer*/
  }
  divp{
   font-size: medium;

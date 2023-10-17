@@ -9,12 +9,12 @@ import {BrowserRouter as Router,
   Link,
 } from 'react-router-dom';
 
-  
+//  imported everything I needed React, Header, Footer, and brower router 
 import Home from './routes/Home'
 import About from './routes/About'
 import Finances from './routes/Finances'
 
-
+// imported the routes.
 //import AboutFinance from './Components/AboutFinance'
 /** Instruction:
  *    This is a boiler plate, or a "starting point" for React Router.
@@ -54,7 +54,7 @@ export default function App() {
      {/* <Copyright /> */}
       {/* <h1>Hello World 🌎</h1> */}
     </div>
-     
+    {/* I have a router in a link to start to get the links poster.  */}
     <Router>
       {/* This is your Nav element, that users can see. Your entire App.js is the router.*/}
       <div>
@@ -85,7 +85,7 @@ export default function App() {
           {/* <Route path ="/copyright">
             <Copyright /> 
            </Route> */}
-
+{/* These bottom ones are the path for the nav. */}
           <Route path ="/finances">
             <Finances />
           </Route>

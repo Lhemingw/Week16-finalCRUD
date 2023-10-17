@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-// import { Placeholder } from 'react-bootstrap';
+// import { Placeholder } from 'react-bootstrap'; wanted to try a placeholder, too much for little time
 export default function Header() {
 
 		return (
@@ -15,6 +15,8 @@ export default function Header() {
         </Card.Text>
       </Card.Body>
     </Card>
+
+    {/* Did a card for the header, along with title and a body */}
             {/* <div className="card mb-3" style="width: 18rem;">
                 <div className="card-body">
                 <h2 className="card-title">WEEK 16-18 FINAL</h2>

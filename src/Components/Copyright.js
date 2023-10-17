@@ -12,11 +12,12 @@ export default function copyright() {
         <div className='p'>
         <p>Any copying of this material will be under full punishable under U.S.A,
             the United Federation of Planets, and under the Fellowship of the Ring Group.  Now, that I 
-            combined grouping that should not, I will possible get stuff thrown at me. I think it would be really "fascinating" if it did.
+            combined grouping that should not, I will possible get stuff thrown at me. I still think it would be really "fascinating" if it was all together.
         </p>
         </div>
         </Container>
         </>
+        //Here is the paragraph for my copy right.  I have a container, and css which is funner.  Imports container
        
     )
 }

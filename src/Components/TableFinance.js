@@ -28,14 +28,16 @@ export default function Table({users, handleDelete, handleUpdate, handleUpdatePa
              <td>{user.tax}</td>
              <td>{user.totalTax}</td>
              <td>{user.totalSaving}</td>
+             <td>
+                {/* mapping through all of this.  Map start is on number 23 */}
+                <button className="btn btn-outline-danger"onClick={(e) => handleDelete(user.id)}>Delete</button>
+            </td>
+            {/* bootstrap button */}
 
-         
-                <td>
-                <button onClick={(e) => handleDelete(e)}>Delete</button>
-                </td>
-                <td>
-                <button onClick={(e) => handleUpdate(e)}>Update</button>   
-                </td>
+            <td>            
+                <button className="btn btn-outline-success"onClick={(e) => handleUpdate(user.id,user)}>Update</button>   
+            </td>
+            {/* bootstrap outline button */}
                 <td>
                 {/* <button onClick={(e) => handleUpdatePayHours(e)}>Update</button>    */}
                 </td>

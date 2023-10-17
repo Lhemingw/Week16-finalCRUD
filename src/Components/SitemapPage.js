@@ -8,7 +8,7 @@ const SitemapPage = () => {
             {/* <Header /> */}
             <p>Sitemap page</p>
             <Footer />
-         
+         {/* NOt in use  I just put it here*/}
         </div> 
     );
 };

@@ -10,7 +10,7 @@ export default function Home({users}) {
 	// const [newQuarterwcomp, setNewQuarterwcomp] =useState('')
 	const [newUpdate, setNewUpdate]= useState('')
 	
-
+//cut back on the code just a little, so setNewUpdate is there just not being used
 	// const[newMonday, setNewMonday] =useState('')
 	// const[newTuesday, setNewTuesday] =useState('')
 	// const[newWednesday, setNewWednesday] =useState('')
@@ -20,6 +20,8 @@ export default function Home({users}) {
 	// const[newSunday, setNewSunday] =useState('')
 	const[newExtra, setNewExtra] =useState('')
 
+	//just commenented out all days of the week left one for all hours for days of the week to cut it back, just left the words there instead of input.
+// Maybe I had too much fun putting it together, and less fun trouble shooting.
 	  const [user] =useState('')
 	// const use = (e, userObject) => {
 		// e.preventDefault();
@@ -29,12 +31,7 @@ export default function Home({users}) {
 	  const updatePayHours = (e, ) => {
 		e.preventDefault();
 		// Perform state updates here based on user input
-	  };
-
-	
-	
-	  
-	  
+	  };  
 
 	// function updateUser(e, userObject){ I broke it with this.
     //     e.preventDefault()
@@ -152,22 +149,22 @@ export default function Home({users}) {
 			<p className='text-center'>I recomend at least 10% for Roth monthly if not more, or 10% for savings, instead save for something else</p>
 				
 			<label type="text"className="button2 form-group text-center">Roth</label>
-			<input type="text"name="submit"value={newUpdate}onChange={(e) =>setNewUpdate(e.target.value)}/>
-			<button className="button" onClick={(e) => updatePayHours}>Submit</button>	
+			{/* <input type="text"name="submit"value={newUpdate}onChange={(e) =>setNewUpdate(e.target.value)}/>
+			<button className="button" onClick={(e) => updatePayHours}>Submit</button>	 */}
 
 			<label type="text"className="mb-3 button2 ">Emergency Save</label>
-			<input type="text"name="submit"value={newUpdate}onChange={(e) =>setNewUpdate(e.target.value)}/>
-			<button className="button" onClick={(e) => updatePayHours}>Submit</button>	
+			{/* <input type="text"name="submit"value={newUpdate}onChange={(e) =>setNewUpdate(e.target.value)}/>
+			<button className="button" onClick={(e) => updatePayHours}>Submit</button>	 */}
 
 			<label type="text"className=" mb-3 button2 mb-5 text-center">Other Saving</label>
-			<input type="text"name="submit"value={newUpdate}onChange={(e) =>setNewUpdate(e.target.value)}/>
-			<button className="button mb-5 text-center col-sm-1" onClick={(e) => updatePayHours}>Submit</button>	
+			{/* <input type="text"name="submit"value={newUpdate}onChange={(e) =>setNewUpdate(e.target.value)}/>
+			<button className="button mb-5 text-center col-sm-1" onClick={(e) => updatePayHours}>Submit</button>	 */}
 
 			<h3 className=' form-group text-center mb-3'>Spendable Money</h3>
-			<p className='divp mb-3 text-center'>This is the amount of money to be able to take over to finances page</p>
+			{/* <p className='divp mb-3 text-center'>This is the amount of money to be able to take over to finances page</p>
 			<label type="text"className="mb-3 form-group">Spendable Money</label>
 			<input type="text"  className="mb-5 col-sm-1 text-center"name="submit"value={newUpdate}onChange={(e) =>setNewUpdate(e.target.value)}/>
-			<button className="button mb-3 text-center" onClick={(e) => updatePayHours}>Submit</button>	
+			<button className="button mb-3 text-center" onClick={(e) => updatePayHours}>Submit</button>	 */}
 			</div>
 	)
 	}
