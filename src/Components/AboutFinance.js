@@ -35,15 +35,15 @@ export default function AboutFinance() {
 	<p className='text-center'>This one of 25% for housing is possible hard one at this time, do what you feel is needed</p>
 	</div>
 	{/* This is bootstrap centering of the text */}
-	<ListGroup as="ul" className="table-bordered-success">
-      <ListGroup.Item as="li">
+	<ListGroup as="ul" className=" table table-bordered border-danger">
+      <ListGroup.Item as="li" className="table table-bordered border-warning">
 	  Rent/Morgage
       </ListGroup.Item>
-      <ListGroup.Item as="li">Utilites(water, electricity, internet, and etc)</ListGroup.Item>
-      <ListGroup.Item as="li">
+      <ListGroup.Item as="li" className="table table-bordered border-warning">Utilites(water, electricity, internet, and etc)</ListGroup.Item>
+      <ListGroup.Item as="li" className="table table-bordered border-warning">
 	  Things you buy for the house to fix or to help it look nice
       </ListGroup.Item>
-      <ListGroup.Item as="li">Any I missed</ListGroup.Item>
+      <ListGroup.Item as="li" className="table table-bordered border-warning">Any I missed</ListGroup.Item>
     </ListGroup>
 	
 	</section>
@@ -56,15 +56,15 @@ export default function AboutFinance() {
 <p className='text-center'>This is where you put the stuff you use for you in the bathroom, and etc</p>
 </div>
 {/* This is bootstrap centering of the text */}
-<ListGroup as="ul"size='sm'className="table-bordered-success">
-      <ListGroup.Item as="li">
+<ListGroup as="ul"size='sm'className=" table table-bordered border-danger">
+      <ListGroup.Item as="li" className="table table-bordered border-warning">
 	  Make up
       </ListGroup.Item>
-      <ListGroup.Item as="li">Face soap/other soap</ListGroup.Item>
-      <ListGroup.Item as="li">Toothpaste/Floss</ListGroup.Item>
-      <ListGroup.Item as="li">Women/Men stuff</ListGroup.Item>
-      <ListGroup.Item as="li">Clothes</ListGroup.Item>
-      <ListGroup.Item as="li">Anything else I missed</ListGroup.Item>
+      <ListGroup.Item as="li" className="table table-bordered border-warning">Face soap/other soap</ListGroup.Item>
+      <ListGroup.Item as="li" className="table table-bordered border-warning">Toothpaste/Floss</ListGroup.Item>
+      <ListGroup.Item as="li" className="table table-bordered border-warning">Women/Men stuff</ListGroup.Item>
+      <ListGroup.Item as="li" className="table table-bordered border-warning">Clothes</ListGroup.Item>
+      <ListGroup.Item as="li" className="table table-bordered border-warning">Anything else I missed</ListGroup.Item>
     </ListGroup>	
 	</section>
 
@@ -76,10 +76,10 @@ export default function AboutFinance() {
 	<p className='text-center'>This is where you put food you eat</p>
 	</div>
 			{/* This is bootstrap centering of the text */}
-<ListGroup as="ul"size='sm' className="table-bordered-success">
-	<ListGroupItem as="li">Green/Red Chile</ListGroupItem>
-	<ListGroupItem as="li">NM drinks</ListGroupItem>
-	<ListGroupItem as="li">Other food</ListGroupItem>
+<ListGroup as="ul"size='sm' className=" table table-bordered border-danger">
+	<ListGroupItem as='li' className="table table-bordered border-warning">Green/Red Chile</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">NM drinks</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Other food</ListGroupItem>
 </ListGroup>
 </section>
 {/* <!---------TRANSPORTATION-----> */}
@@ -90,13 +90,13 @@ export default function AboutFinance() {
 	or how you get to where you need to go </p>
 	</div>
 	{/* This is bootstrap centering of the text */}
-<ListGroup as="ul"size='sm' className="table-bordered-success">
-	<ListGroupItem as="li">Gas</ListGroupItem>
-	<ListGroupItem as="li">Car Loans/etc</ListGroupItem>
-	<ListGroupItem as="li">What Broke</ListGroupItem>
-	<ListGroupItem as='li'>Oil Changes</ListGroupItem>
-	<ListGroupItem as='li'>Bus Fare/Enter here extra stuff</ListGroupItem>
-	<ListGroupItem as='li'></ListGroupItem>
+<ListGroup as="ul"size='sm' className=" table table-bordered border-danger">
+	<ListGroupItem as='li'className="table table-bordered border-warning">Gas</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Car Loans/etc</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">What Broke</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Oil Changes</ListGroupItem>
+	<ListGroupItem as='li'className="table table-bordered border-warning">Bus Fare/Enter here extra stuff</ListGroupItem>
+	<ListGroupItem as='li'className="table table-bordered border-warning"></ListGroupItem>
 </ListGroup>
 </section>
 
@@ -109,14 +109,14 @@ export default function AboutFinance() {
 You can swich this on and off with the personal if you need to, it is not usuall for me to buy personal stuff every month for example</p>
 	</div>
 	{/* This is bootstrap centering of the text */}
-<ListGroup as="ul"size='sm' className="table-bordered-success">
-	<ListGroupItem as="li">RX</ListGroupItem>
-	<ListGroupItem as="li">Dr</ListGroupItem>
-	<ListGroupItem as="li">Health Club Fees</ListGroupItem>
-	<ListGroupItem as='li'>Hospital</ListGroupItem>
-	<ListGroupItem as='li'>Over the Counter</ListGroupItem>
-	<ListGroupItem as='li'>Anything I Missed 1</ListGroupItem>
-	<ListGroupItem as="li">Anything I Missed</ListGroupItem>
+<ListGroup as="ul"size='sm' className=" table table-bordered border-danger">
+	<ListGroupItem as='li'className="table table-bordered border-warning">RX</ListGroupItem>
+	<ListGroupItem as='li'className="table table-bordered border-warning">Dr</ListGroupItem>
+	<ListGroupItem as='li'className="table table-bordered border-warning">Health Club Fees</ListGroupItem>
+	<ListGroupItem as='li'className="table table-bordered border-warning">Hospital</ListGroupItem>
+	<ListGroupItem as='li'className="table table-bordered border-warning">Over the Counter</ListGroupItem>
+	<ListGroupItem as='li'className="table table-bordered border-warning">Anything I Missed 1</ListGroupItem>
+	<ListGroupItem as="li"className="table table-bordered border-warning">Anything I Missed</ListGroupItem>
 </ListGroup>
 
 </section>
@@ -127,18 +127,18 @@ You can swich this on and off with the personal if you need to, it is not usuall
 	<p className='text-center'>You can put stuff you do not know where it goes in here.  Feel free to use or not, 100</p>
 	</div>
 	{/* This is bootstrap centering of the text */}
-<ListGroup as="ul"size='sm' className="table-bordered-success">
-	<ListGroupItem as="li">Running Shoes</ListGroupItem>
-	<ListGroupItem as="li">Running Clothes</ListGroupItem>
-	<ListGroupItem as="li">Gift</ListGroupItem>
-	<ListGroupItem as='li'>Health Club Fees</ListGroupItem>
-	<ListGroupItem as='li'>Over the Counter</ListGroupItem>
-	<ListGroupItem as='li'>Sewing</ListGroupItem>
-	<ListGroupItem as="li">Reading</ListGroupItem>
-	<ListGroupItem as="li">I am sure I will pick some new hobby</ListGroupItem>
-	<ListGroupItem as="li">Anything I missed 1</ListGroupItem>
-	<ListGroupItem as="li">Anything I missed 2</ListGroupItem>
-	<ListGroupItem as="li">Anything I missed 3</ListGroupItem>
+<ListGroup as="ul"size='sm' className=" table table-bordered border-danger">
+	<ListGroupItem as='li' className="table table-bordered border-warning">Running Shoes</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Running Clothes</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Gift</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Health Club Fees</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Over the Counter</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Sewing</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Reading</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">I am sure I will pick some new hobby</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Anything I missed 1</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Anything I missed 2</ListGroupItem>
+	<ListGroupItem as='li' className="table table-bordered border-warning">Anything I missed 3</ListGroupItem>
 </ListGroup>
 </section>
 {/* <!---------OTHER2-------------> */}
@@ -151,9 +151,9 @@ You can swich this on and off with the personal if you need to, it is not usuall
 </div>
 {/* This is bootstrap centering of the text */}
 <ListGroup>
-	<ListGroupItem as="li">Miscellanous/Missed Items</ListGroupItem>
-	<ListGroupItem as="li">Miscellanous/Missed Items</ListGroupItem>
-	<ListGroupItem as="li">Miscellanous/Missed Items</ListGroupItem>
+	<ListGroupItem as="li" className="table table-bordered border-warning">Miscellanous/Missed Items</ListGroupItem>
+	<ListGroupItem as="li" className="table table-bordered border-warning">Miscellanous/Missed Items</ListGroupItem>
+	<ListGroupItem as="li" className="table table-bordered border-warning">Miscellanous/Missed Items</ListGroupItem>
 </ListGroup>
 </section>
 {/* <!---------LOANS--------------> */}
@@ -167,10 +167,10 @@ You can swich this on and off with the personal if you need to, it is not usuall
 	{/* This is bootstrap centering of the text */}
 
 <ListGroup>
-	<ListGroupItem as="li">Loans1</ListGroupItem>
-	<ListGroupItem as="li">Loans 2</ListGroupItem>
-	<ListGroupItem as="li">Loans 3</ListGroupItem>
-	<ListGroupItem as='li'>Loans 4</ListGroupItem>
+	<ListGroupItem as="li" className="table table-bordered border-warning">Loans1</ListGroupItem>
+	<ListGroupItem as="li" className="table table-bordered border-warning">Loans 2</ListGroupItem>
+	<ListGroupItem as="li" className="table table-bordered border-warning">Loans 3</ListGroupItem>
+	<ListGroupItem as="li" className="table table-bordered border-warning">Loans 4</ListGroupItem>
 	
 </ListGroup>
 </section>  

@@ -33,14 +33,13 @@ export default function Finances() {
     console.log("deleting items..", userId);
    
       // what ever the user id is pass it as pram of mock api
-
    
     deleteUser(userId)
     console.log("items have deleted....", newUser);
   }
   function handleUpdate(userId, user) {
     console.log("Up dating", userId,user);
-    updateUser (user)
+    // updateUser (user)
     // setNewUser({
     //   ...newUser,
     //   updatedPayCheckValue: updatedPayCheck,
@@ -94,7 +93,7 @@ export default function Finances() {
 //This is the post for a new user using fetch, using .then for error catch
   function updateUser(e, userObject) {
     console.log("Updating user...", userObject);
-    e.preventDefault();
+    // e.preventDefault();
     let updatedUserObject = {
       ...userObject,
       payCheck: updatedPayCheck,
